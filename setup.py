@@ -8,7 +8,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setup(
     name="window_auto_generator",
-    version=1.0,
+    version=1.2,
     author="zenkilan",
     author_email="434209210@qq.com",
     description="Auto generate a window with text browser and buttons from config info",
