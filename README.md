@@ -1,4 +1,8 @@
-##使用方法
+## Usage Intro
+
+- Generate a window with text browser and buttons from config
+
+## How To Use
 
 ```python
 import sys
