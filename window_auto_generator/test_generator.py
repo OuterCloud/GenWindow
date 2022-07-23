@@ -1,7 +1,7 @@
 import unittest
 import sys
 from PyQt5.QtWidgets import QApplication
-from main import ToolWindow, ToolConf, ReqProto, Button
+from generator import ToolWindow, ToolConf, ReqProto, Button
 
 
 class TestStringMethods(unittest.TestCase):

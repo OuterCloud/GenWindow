@@ -7,7 +7,7 @@
 ```python
 import sys
 from PyQt5.QtWidgets import QApplication
-from generator import ToolWindow, ToolConf, Button, ReqProto
+from window_auto_generator import ToolWindow, ToolConf, Button, ReqProto
 
 app = QApplication(sys.argv)
 tw = ToolWindow(ToolConf(
