@@ -1,9 +1,8 @@
-import sys
 import requests
 import re
 from typing import List, Dict
 
-from PyQt5.QtWidgets import (QWidget, QTextBrowser, QPushButton, QApplication, QVBoxLayout, QHBoxLayout, QMainWindow)
+from PyQt5.QtWidgets import (QWidget, QTextBrowser, QPushButton, QVBoxLayout, QHBoxLayout, QMainWindow)
 
 
 class ReqProto:
@@ -82,15 +81,3 @@ class ToolWindow(QMainWindow):
         widget = QWidget()
         widget.setLayout(self.page_layout)
         self.setCentralWidget(widget)
-
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    tw = ToolWindow(ToolConf(
-        name="my window",
-        desc="my window desc",
-        buttons=[
-            Button("test", "desc", ReqProto("http://127.0.0.1:8000/hello?user=1", "GET", None)),
-        ]
-    ))
-    sys.exit(app.exec_())

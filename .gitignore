@@ -1,1 +1,6 @@
 .idea/
+venv/
+build/
+dist/
+*.pyc
+window_generator.egg-info/
